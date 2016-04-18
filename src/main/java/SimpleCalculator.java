@@ -34,5 +34,9 @@ public class SimpleCalculator {
 	public int getResult() {
 		return result;
 	}
+	
+	public String print(){
+		return "hi";
+	}
 
 }
