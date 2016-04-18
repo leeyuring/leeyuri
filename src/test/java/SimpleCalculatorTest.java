@@ -53,5 +53,10 @@ public class SimpleCalculatorTest {
 		calc.dinc(200);
 		assertEquals(-300, calc.getResult());
 	}
+	@Test
+	public void testHi(){
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals("hi", calc.print());
+	}
 
 }
